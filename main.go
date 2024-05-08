@@ -9,6 +9,10 @@ func main() {
     FunctionC()
     FunctionD()
 }
+ 
+func ignored() {
+    println("Nobody calls me!")
+}
 
 func localOne() {
     println("local one is called")
